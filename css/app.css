@@ -1,0 +1,281 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+li {
+    list-style: none;
+        
+}
+
+ul {
+    display: flex;
+    gap: 2.3rem;
+    align-items: center;
+    margin-right: 9rem;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-left: 8rem;
+}
+
+.deck {
+    width: 41rem;
+    margin-left: 8rem;
+    /* margin-top: 2.5rem; */
+}
+
+.web {
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 8rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+    width: 40%;
+}
+
+.second {
+    margin-left: 4.5rem;
+    
+}
+
+.second_slide {
+    display: flex;
+    margin-top: 2.5rem;
+
+}
+
+.third_slide {
+    width: 50rem;
+}
+
+button {
+    height: 2.5rem;
+    background-color: rgb(252, 103, 103);
+    color: white;
+    width: 10rem;
+    margin-top: 2.5rem;
+    border: none;
+}
+
+.Hydrogen {
+    height: 30rem;
+    margin-left: 1rem;
+    background-color: rgb(4, 4, 58);
+    color: white;
+    width: 18rem;
+    padding-top: 1.5rem;
+    padding-left: 1.4rem;
+    
+}
+
+.new {
+    font-size: 2rem;
+    color: rgb(232, 182, 121);
+    margin-bottom: 1.5rem;
+
+}
+
+.VS {
+    font-size: 1.25rem;
+    
+}
+
+.Artistry {
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+
+}
+hr {
+    margin-top: 1.5rem;
+    width: 16.35rem;
+}
+
+.funds {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.computer {
+    height: 7.5rem;
+}
+
+.end_part {
+    margin-top: 5rem;
+    /* margin-left: 8rem; */
+    display: flex;
+    margin-bottom: 5rem;
+    
+}
+
+.retro {
+    display: flex;
+}
+
+.numeral {
+    margin-left: 1.5rem;
+}
+
+.one {
+    font-size: 2rem;
+    color: grey;
+    margin-bottom: 1rem;
+}
+
+.drive {
+    height: 7.5rem;
+}
+
+.Top_10 {
+    display: flex;
+    margin-left: 2.4rem;
+}
+
+.ten {
+    font-size: 2rem;
+    color: grey;
+    margin-bottom: 1rem;
+   
+}
+
+.numb {
+    margin-left: 1.5rem;
+}
+
+.growth {
+    display: flex;
+    margin-left: 3.8rem;
+}
+
+@media (max-width: 450px) {
+      
+    nav {
+        flex-flow: column;
+        width: 450px;
+        margin: 0px;
+    }
+
+    nav > ul {
+        display: none;
+
+    }
+    h1 {
+        margin: 1rem;
+        font-size: 2.5rem;
+        margin-left: 0rem;
+    }
+
+    .second_slide {
+        margin-top: .5rem;
+        flex-flow: column;
+        width: 100%;
+    
+    }
+
+    .third_slide{
+        /* display: none; */
+        border: 1px solid red;
+        width: 100%;
+    }
+
+    .deck {
+        width: 100%;
+        margin-left: 0;
+        overflow: hidden;
+    }
+    
+    .web {
+        flex-flow: column;
+        margin-top: 1.2rem;
+        margin-left: 0rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        
+    }
+
+    .second {
+        margin-top: 1rem;
+        width: 100vw;
+        margin-left: 0rem;
+        
+    }
+
+    button {
+        height: 2.5rem;        
+        width: 10rem;
+        margin-top: 1.8rem;
+        margin-bottom: 3.8rem;
+       
+    }
+    .Hydrogen {
+        color: white;
+        width: 23.7rem;     
+        margin-left: 0rem;
+    }
+
+    .VS {
+        font-size: 1.75rem;
+        
+    }
+
+    .ever {
+        font-size: 1.2rem;
+    }
+    hr {
+        width: 22rem;
+    }
+    .Artistry {
+        font-size: 1.75rem;
+        margin-top: 1.5rem;
+    
+    }
+    .adverse {
+        font-size: 1.2rem;
+    }
+    .funds {
+        font-size: 1.75rem;
+    }
+    .YOY {
+        font-size: 1.2rem;
+    }
+
+    .end_part {      
+        flex-flow: column;
+        gap: 1.5rem;
+        /* width: 450px; */
+               
+    }
+
+    .Top_10 {
+        margin-left: 0rem;
+    }
+
+    .growth {
+        margin-left: 0rem;
+    }
+   
+    .long{
+        width: 100%;
+    }
+
+    .third_slide {
+        width: 450px;
+        padding: 0;
+    }
+    
+    
+}
+
